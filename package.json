@@ -1,0 +1,23 @@
+{
+  "name": "web-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass resource/scss/main.scss resource/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OxiCuza/oxicuza.github.io.git"
+  },
+  "author": "OxiCuza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OxiCuza/oxicuza.github.io/issues"
+  },
+  "homepage": "https://github.com/OxiCuza/oxicuza.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
