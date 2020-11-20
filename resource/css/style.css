@@ -24,6 +24,12 @@ body {
   padding-bottom: 2rem;
   font-weight: 400; }
 
+.heading--tertiary {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #E91E63;
+  display: inline-block; }
+
 .section-header {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../images/image-3.jpg");
@@ -61,3 +67,7 @@ body {
     text-decoration: none; }
     .navigation__link:active {
       color: #E91E63; }
+
+.section__about-me {
+  padding: 4rem;
+  height: 100vh; }
