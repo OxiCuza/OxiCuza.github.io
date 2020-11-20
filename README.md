@@ -1,1 +1,1 @@
-# OxiCuza.github.io
+# oxicuza.github.io
