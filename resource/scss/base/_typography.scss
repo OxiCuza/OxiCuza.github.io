@@ -1,0 +1,13 @@
+.heading {
+    &--primary {
+        font-size: 5.5rem;
+        padding-bottom: 2rem;
+        font-weight: 300;
+    }
+
+    &--secondary {
+        font-size: 5rem;
+        padding-bottom: 2rem;
+        font-weight: 400;
+    }
+}

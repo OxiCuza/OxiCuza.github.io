@@ -1,0 +1,11 @@
+.section-header {
+    height: 100vh;
+    background-image: linear-gradient(rgba($color-black, 0.5), rgba($color-black, 0.3)), url('../images/image-3.jpg');
+    background-size: cover;
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+}
