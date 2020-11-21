@@ -83,11 +83,18 @@ p {
 .section__about-me {
   padding: 5rem;
   height: 100vh; }
-  .section__about-me .image-profile {
+  .section__about-me .profile__image {
     width: 50%;
     margin: 0 auto;
     border-radius: 100%;
     overflow: hidden;
     border: 2px solid #E91E63; }
-    .section__about-me .image-profile img {
+    .section__about-me .profile__image img {
       width: 100%; }
+  .section__about-me .profile__title {
+    font-size: 3rem;
+    margin-bottom: 2rem; }
+    .section__about-me .profile__title--description {
+      font-size: 2rem;
+      font-weight: 400;
+      margin-bottom: 2rem; }
