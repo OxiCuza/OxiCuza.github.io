@@ -14,7 +14,15 @@
     &--tertiary {
         font-size: 4rem;
         padding-bottom: 1rem;
-        border-bottom: 2px solid $color-secondary;
-        display: inline-block;
+        text-align: center;
+
+        &::after {
+            content: "";
+            height: 2px;
+            width: 15rem;
+            background-color: $color-secondary;
+            display: block;
+            margin: 1rem auto;
+        }
     }
 }

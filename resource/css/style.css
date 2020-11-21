@@ -27,8 +27,14 @@ body {
 .heading--tertiary {
   font-size: 4rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #E91E63;
-  display: inline-block; }
+  text-align: center; }
+  .heading--tertiary::after {
+    content: "";
+    height: 2px;
+    width: 15rem;
+    background-color: #E91E63;
+    display: block;
+    margin: 1rem auto; }
 
 .section-header {
   height: 100vh;
