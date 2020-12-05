@@ -1,7 +1,17 @@
 .u {
+    &__m {
+        margin: 0 0 0 0;
+    }
+
     &__mb {
         &--l {
             margin-bottom: 4rem;
+        }
+    }
+
+    &__pt {
+        &--l {
+            padding-top: 2rem;
         }
     }
 }

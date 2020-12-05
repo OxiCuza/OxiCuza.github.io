@@ -1,0 +1,67 @@
+.section__contact {
+  background-color: $color-white;
+  height: 90vh;
+
+  display: flex;
+  justify-content: space-between;
+
+  &--left {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 6rem;
+    width: 50%;
+  }
+
+  &--right {
+    width: 50%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      transform: translateY(-23%);
+    }
+  }
+
+  &--name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+      margin-top: 3rem;
+  }
+
+  &--list {
+    list-style: none;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    letter-spacing: 1px;
+  }
+
+  &--item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    ion-icon {
+      margin-right: 2rem;
+
+    }
+  }
+
+  &--social {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+
+    .social {
+      &--list {
+        list-style: none;
+          margin-top: 2rem;
+      }
+      &--item {
+          display: inline-block;
+          margin-right: 2rem;
+          font-size: 3rem;
+      }
+    }
+  }
+}

@@ -28,7 +28,8 @@ body {
   font-size: 4rem;
   padding-bottom: 1rem;
   text-align: center;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  letter-spacing: 1px; }
   .heading--tertiary::after {
     content: "";
     height: 2px;
@@ -49,8 +50,14 @@ p {
   display: flex;
   justify-content: space-between; }
 
+.u__m {
+  margin: 0 0 0 0; }
+
 .u__mb--l {
   margin-bottom: 4rem; }
+
+.u__pt--l {
+  padding-top: 2rem; }
 
 .section-header {
   height: 100vh;
@@ -73,15 +80,21 @@ p {
     border-radius: 100%;
     background-color: transparent;
     border: 1px solid white;
+    transition: all .5s;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 3rem; }
+    .section-header .icon-wrapper:hover {
+      border: 1px solid #E91E63; }
+      .section-header .icon-wrapper:hover ion-icon {
+        color: #E91E63; }
     .section-header .icon-wrapper a {
       text-decoration: none;
       color: white; }
     .section-header .icon-wrapper ion-icon {
-      font-size: 3rem; }
+      font-size: 3rem;
+      transition: all .5s; }
 
 .navigation {
   display: flex;
@@ -151,3 +164,60 @@ p {
         width: 86%; }
       .section__about-me .base-meter .fill.fill-85-percent {
         width: 82%; }
+
+.section__portfolio {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.section__contact {
+  background-color: white;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between; }
+  .section__contact--left {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 6rem;
+    width: 50%; }
+  .section__contact--right {
+    width: 50%;
+    overflow: hidden; }
+    .section__contact--right img {
+      width: 100%;
+      transform: translateY(-23%); }
+  .section__contact--name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+    margin-top: 3rem; }
+  .section__contact--list {
+    list-style: none;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    letter-spacing: 1px; }
+  .section__contact--item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; }
+    .section__contact--item ion-icon {
+      margin-right: 2rem; }
+  .section__contact--social {
+    font-size: 1.8rem;
+    letter-spacing: 1px; }
+    .section__contact--social .social--list {
+      list-style: none;
+      margin-top: 2rem; }
+    .section__contact--social .social--item {
+      display: inline-block;
+      margin-right: 2rem;
+      font-size: 3rem; }
+
+.section-footer {
+  height: 10vh;
+  background-color: #212121;
+  color: white;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }

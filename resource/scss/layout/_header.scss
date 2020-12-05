@@ -23,11 +23,20 @@
             border-radius: 100%;
             background-color: transparent;
             border: 1px solid $color-white;
+            transition: all .5s;
 
             display: flex;
             justify-content: center;
             align-items: center;
             margin-right: 3rem;
+
+            &:hover {
+                border: 1px solid $color-secondary;
+
+                ion-icon {
+                    color: $color-secondary;
+                }
+            }
 
             a {
                 text-decoration: none;
@@ -36,6 +45,7 @@
 
             ion-icon {
                 font-size: 3rem;
+                transition: all .5s;
             }
         }
     }
