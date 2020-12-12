@@ -167,7 +167,37 @@ p {
 
 .section__portfolio {
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.3); }
+  background-color: black; }
+  .section__portfolio .portfolio-slider div {
+    width: 100%;
+    height: 100vh;
+    position: relative; }
+    .section__portfolio .portfolio-slider div img {
+      width: 100%;
+      opacity: .7; }
+    .section__portfolio .portfolio-slider div p {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: white; }
+  .section__portfolio .portfolio-slider .slick-next {
+    z-index: 10;
+    display: block;
+    height: 100%;
+    width: 9%;
+    right: 0;
+    opacity: 0; }
+    .section__portfolio .portfolio-slider .slick-next:hover {
+      cursor: url("../images/next.png"), auto; }
+  .section__portfolio .portfolio-slider .slick-prev {
+    z-index: 10;
+    display: block;
+    height: 100%;
+    width: 9%;
+    left: 0;
+    opacity: 0; }
+    .section__portfolio .portfolio-slider .slick-prev:hover {
+      cursor: url("../images/prev.png"), auto; }
 
 .section__contact {
   background-color: white;

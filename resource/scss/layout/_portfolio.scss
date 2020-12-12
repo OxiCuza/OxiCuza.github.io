@@ -1,4 +1,50 @@
 .section__portfolio {
   height: 100vh;
-  background-color: rgba($color-black, 0.3);
+  background-color: rgba($color-black, 1);
+
+  .portfolio-slider {
+    div {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+
+      img {
+        width: 100%;
+        opacity: .7;
+      }
+
+      p {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: $color-white;
+      }
+    }
+
+    .slick-next {
+      z-index: 10;
+      display: block;
+      height: 100%;
+      width: 9%;
+      right: 0;
+      opacity: 0;
+      
+      &:hover {
+        cursor: url("../images/next.png"), auto;
+      }
+    }
+
+    .slick-prev {
+      z-index: 10;
+      display: block;
+      height: 100%;
+      width: 9%;
+      left: 0;
+      opacity: 0;
+
+      &:hover {
+        cursor: url("../images/prev.png"), auto;
+      }
+    }
+  }
 }
